@@ -10,7 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello World!Welcome Ramana:" );
         final Resource resource = new ClassPathResource("applicationContext.xml");
         final DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
         final XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(beanFactory);
